@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="assets/sakib.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Shake GPT</title>
@@ -10,10 +10,20 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
     
     <link rel="stylesheet" href="style.css" />
+    
+    <style>
+      .img {
+        z-index: 999999;
+        position: absolute;
+        left: 0%;
+      }
+    </style>
 
   </head>
   <body>
     <div id="app">
+      
+      <img src="assets/sakib.png" class="col-2 img"/>
 
       <div id="chat_container" class="container card bg-transparent border-0 pt-5"></div>
 
